@@ -88,10 +88,11 @@ function initCharts() {
 
         var colors = chroma.brewer['Pastel2'];
         var index = 0;
+        
         Object.each(values, function(name, valueDescription) {
             var color = colors[index++];
-
             var timeSeries = new TimeSeries();
+
             smoothie.addTimeSeries(timeSeries, {
                 strokeStyle: color,
                 fillStyle: chroma(color).darken().alpha(0.5).css(),
@@ -108,6 +109,7 @@ function initCharts() {
 }
 
 function receiveStats(stats) {
+    console.log('stats');
     Object.each(stats, function(name, value) {
         var timeSeries = allTimeSeries[name];
         if (timeSeries) {

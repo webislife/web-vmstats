@@ -1,1 +1,7 @@
 websocketd
+app/node_modules
+.idea
+.DS_Store
+src/.DS_Store
+src/js/.DS_Store
+src/js/components/.DS_Store
