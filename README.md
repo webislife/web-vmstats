@@ -3,8 +3,6 @@ Web VMStat
 
 Display live Linux system stats (memory, CPU, IO, etc) in a pretty web-page, with charts and everything.
 
-![Screenshot](https://github.com/joewalnes/web-vmstats/raw/master/screenshot.png)
-
 Overview
 --------
 
